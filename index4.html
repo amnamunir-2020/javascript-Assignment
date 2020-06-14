@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Names</title>
+</head>
+
+<body>
+    <script>
+        //Q1----decalare 3 variables in one statement just declare in one line multiple variables not assign value
+        // var name,age ,number;
+
+
+
+        //Q2--declare 5 LEGAL variables:    //decalre 5 ILLEGAL Variables
+        /*  1. firstname                       1.first name
+        2. first_name                          2.11firstname
+        3. first - name
+        4. firstName
+        5. firstname11
+    For Example:camelcase
+    userAlert myVar   userResponseTime                                       */
+
+
+        //Q3----
+        document.write("<h1>Rules for numbers JS Variables</h1>")
+        var contain = prompt("Enter variables contain")
+        document.writeln("Variables names can only contain  " + contain + "  . For Example $my_1st variable")
+        var start = prompt("Enter variables starting")
+        document.writeln("<br>Variable names  must begin with a " + start + ".For Example $name,_name or name ")
+        var caseSensitive = "sensitive"
+        document.write("<br>Variables names are case  " + caseSensitive)
+        var key = "keywords"
+        document.write("<br>Variables names should not be JS  " + key)
+        var only = "letters,numbers,dollar sign and underscore"
+        document.write("<br>Variable can only contain " + only)
+    </script>
+
+</body>
+
+</html>
